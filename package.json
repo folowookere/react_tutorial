@@ -1,0 +1,34 @@
+{
+  "name": "react_tutorial",
+  "version": "1.0.0",
+  "description": "React Tutorial from The Net Ninja",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "PORT=8080 npm run build",
+    "build": "webpack -d && webpack-dev-server --content-base src/ --inline --hot --port process.env.PORT process.env.IP"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/folowookere/react_tutorial.git"
+  },
+  "author": "Funmi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/folowookere/react_tutorial/issues"
+  },
+  "homepage": "https://github.com/folowookere/react_tutorial#readme",
+  "dependencies": {
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^4.10.2",
+    "webpack-cli": "^3.0.2",
+    "webpack-dev-server": "^3.1.4"
+  }
+}
